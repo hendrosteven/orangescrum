@@ -16,8 +16,8 @@ define("EMAIL_DELIVERY", "smtp");
 //Gmail SMTP
 define("SMTP_HOST", "ssl://smtp.gmail.com");
 define("SMTP_PORT", "465");
-define("SMTP_UNAME", "youremail@gmail.com");
-define("SMTP_PWORD", "******");
+define("SMTP_UNAME", "hendro.tampake@dmsum.com");
+define("SMTP_PWORD", "sala3code");
 //https://www.arclab.com/en/amlc/list-of-smtp-and-imap-servers-mailserver-list.html (Get the list of Host names)
 
 ### OR ###
@@ -43,13 +43,13 @@ define("SMTP_PWORD", "******");
 */
 
 ########################################################################
-define("WEB_DOMAIN", "YourDomain.com"); //ex. demo.orangescrum.com
-define('FROM_EMAIL_NOTIFY', 'notify@mycompany.com'); //(REQUIRED)
-define('SUPPORT_EMAIL', 'support@mycompany.com'); //(REQUIRED) From Email
-define('FROM_EMAIL',  'Orangescrum<'.SUPPORT_EMAIL.'>');
+define("WEB_DOMAIN", "www.dmsum.com"); //ex. demo.orangescrum.com
+define('FROM_EMAIL_NOTIFY', 'hendro.tampake@dmsum.com'); //(REQUIRED)
+define('SUPPORT_EMAIL', 'hendro.tampake@dmsum.com'); //(REQUIRED) From Email
+define('FROM_EMAIL',  'DMSUM<'.SUPPORT_EMAIL.'>');
 
-define("DEV_EMAIL", 'developer@mycompany.com'); // Developer Email ID to report the application error
-define('EMAIL_SUBJ', '[Orangescrum]');
+define("DEV_EMAIL", 'hendro.tampake@dmsum.com'); // Developer Email ID to report the application error
+define('EMAIL_SUBJ', '[DMSUM MOBILE]');
 
 // If you have not yet set up the Nohup cronjob, leave it blank
 define('EMAIL_REPLY', "<div style='font-family:Arial;font-size:14px;color:#787878;margin-bottom:5px;'>Just REPLY to this Email the same will be added under the Task. <br/><span style='font-size:11px;'><b>NOTE:</b> Do not remove this original message.</span></div>");
