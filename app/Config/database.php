@@ -39,7 +39,7 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'https://mysql27543-dmsum-mobile.jelastic.skali.net',
+		'host' => 'mysql27543-dmsum-mobile.jelastic.skali.net',
 		'login' => 'root',
 		'password' => 'RNTmtt58692',
 		'database' => 'dmsum',
